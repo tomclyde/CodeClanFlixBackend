@@ -6,7 +6,6 @@ const createRouter = require('./helpers/create_router.js');
 app.use(parser.json());
 
 app.get('/', (req, res) => {
-  console.log("HELLO WORLD");
 });
 
 
